@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        tools:src="@drawable/ic_launcher_background"
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/load_image_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Load Image from Internet" />
+    <Button
+        android:id="@+id/request_permission_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Request Permission Location" />
+
+
+</LinearLayout>
